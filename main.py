@@ -25,3 +25,6 @@ def read_contacts():
 @app.get("/details")
 def read_details():
     return [{"usernmame":"succeded"}]
+@app.get("/manage")
+def read_details():
+    return [{"useremail":"succeded"}]
